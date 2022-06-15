@@ -14,7 +14,7 @@
             <!--<Button Text="To second page" Command="{Binding ToSecondPage}" TextColor="Red" BorderColor="Black"  HeightRequest="40"  VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>-->
             <buttons:SfButton Text="To second page" Command="{Binding ToSecondPage}" TextColor="Red" BorderColor="Black"  HeightRequest="40"  VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"/>
+                HorizontalOptions="CenterAndExpand" CornerRadius="5"/>
         </StackLayout>
     </ContentPage.Content>
 

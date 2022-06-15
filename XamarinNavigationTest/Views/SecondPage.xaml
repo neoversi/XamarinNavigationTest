@@ -12,7 +12,7 @@
     <ContentPage.Content>
         <StackLayout>
             <buttons:SfButton Text="To third page" Command="{Binding ToThirdPage}" TextColor="Red" HeightRequest="40"  VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"/>
+                HorizontalOptions="CenterAndExpand" CornerRadius="5"/>
             <!--<Button Text="To third page" Command="{Binding ToThirdPage}" TextColor="Red" HeightRequest="40"  VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>-->
         </StackLayout>
